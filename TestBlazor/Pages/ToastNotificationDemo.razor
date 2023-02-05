@@ -1,0 +1,11 @@
+﻿@page "/aaaa"
+<h3>Toas tNotification Demo</h3>
+@inject IToastService toastService
+<button class="btn btn-info" @onclick="@(()=> toastService.ShowInfo("Добро пожаловать в АД (а точнее в Blazor)"))">Info Toast </button>
+<button class="btn btn-success" @onclick="@(()=> toastService.ShowSuccess("Добро пожаловать в АД (а точнее в Blazor)"))">Susses </button>
+<button class="btn btn-warning" @onclick="@(()=> toastService.ShowWarning("Добро пожаловать в АД (а точнее в Blazor)"))">Warning </button>
+<button class="btn btn-danger" @onclick="@(()=> toastService.ShowError("Добро пожаловать в АД (а точнее в Blazor)"))">danger </button>
+
+@code {
+
+}

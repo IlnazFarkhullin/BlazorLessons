@@ -1,0 +1,53 @@
+﻿@using TestBlazor.Model
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th>Name</th>
+                <th>Genre</th>
+                <th>Realease Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in games.OrderBy(x => x.RealeaseDate))
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Genre</td>
+                    <td>@item.RealeaseDate.ToString("dd.MM.yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+    private List<Game> games { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+        games = new List<Game>()
+        {
+            new Game()
+            {
+                Name = "Пиво пей",
+                Genre = "Симулятор",
+                RealeaseDate = new DateTime(2023, 02, 05),
+            },
+
+            new Game()
+            {
+                Name = "Семейная ферма",
+                Genre = "Ферма",
+                RealeaseDate = new DateTime(2018, 05, 05),
+            },
+            new Game()
+            {
+                Name = "Вояж",
+                Genre = "Симулятор",
+                RealeaseDate = new DateTime(2003, 10, 25),
+            },
+        };
+
+    }
+}
