@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KloogmFj+IY9ak31jl/BhXzvDA/QUOamuo/flVYTdyI=",
+  "Hash": "HCFw6Atvv3X1JIPGP1r/0i/ghMUY4yyPezbCDgAynYk=",
   "Source": "TestBlazor",
   "BasePath": "_content/TestBlazor",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Пользователь\\source\\repos\\TestBlazor\\TestBlazor\\wwwroot\\music\\Irina_Allegrova_-_Vozvrashhajjtes_domojj_malchiki_75294734.mp3",
+      "SourceId": "TestBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Пользователь\\source\\repos\\TestBlazor\\TestBlazor\\wwwroot\\",
+      "BasePath": "_content/TestBlazor",
+      "RelativePath": "music/Irina_Allegrova_-_Vozvrashhajjtes_domojj_malchiki_75294734.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\music\\Irina_Allegrova_-_Vozvrashhajjtes_domojj_malchiki_75294734.mp3"
     }
   ]
 }
