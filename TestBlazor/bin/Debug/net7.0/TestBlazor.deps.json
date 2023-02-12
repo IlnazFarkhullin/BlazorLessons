@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "TestBlazor/1.0.0": {
         "dependencies": {
-          "Blazored.Toast": "4.0.0"
+          "Blazored.Toast": "4.0.0",
+          "Syncfusion.Blazor": "20.4.0.49"
         },
         "runtime": {
           "TestBlazor.dll": {}
@@ -109,7 +110,67 @@
           }
         }
       },
-      "System.IO.Pipelines/7.0.0": {}
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "Syncfusion.Blazor/20.4.0.49": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.1",
+          "Newtonsoft.Json": "13.0.2",
+          "Syncfusion.ExcelExport.Net.Core": "20.4.0.49",
+          "Syncfusion.Licensing": "20.4.0.49",
+          "Syncfusion.PdfExport.Net.Core": "20.4.0.49",
+          "System.Text.Json": "6.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Blazor.dll": {
+            "assemblyVersion": "20.4.0.49",
+            "fileVersion": "20.4.0.49"
+          }
+        }
+      },
+      "Syncfusion.ExcelExport.Net.Core/20.4.0.49": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.ExcelExport.Net.dll": {
+            "assemblyVersion": "20.4.0.49",
+            "fileVersion": "20.4.0.49"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.4.0.49": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.4.0.49",
+            "fileVersion": "20.4.0.49"
+          }
+        }
+      },
+      "Syncfusion.PdfExport.Net.Core/20.4.0.49": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.PdfExport.Net.dll": {
+            "assemblyVersion": "20.4.0.49",
+            "fileVersion": "20.4.0.49"
+          }
+        }
+      },
+      "System.IO.Pipelines/7.0.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        }
+      }
     }
   },
   "libraries": {
@@ -209,12 +270,68 @@
       "path": "microsoft.jsinterop/7.0.1",
       "hashPath": "microsoft.jsinterop.7.0.1.nupkg.sha512"
     },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "Syncfusion.Blazor/20.4.0.49": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F56jEGtQDS5hZXjA+YG/kwxEmbF5WcZumGw3zSHDhR1t4PP6aBMPbu/m44BvJ9dIjl9G6UrfhAeKvaDZEEWiXQ==",
+      "path": "syncfusion.blazor/20.4.0.49",
+      "hashPath": "syncfusion.blazor.20.4.0.49.nupkg.sha512"
+    },
+    "Syncfusion.ExcelExport.Net.Core/20.4.0.49": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IqDmFh+sFrNlHo/2Oi7lK+x9FXACenI8pJ06Iuh+x6Dp+JovzQPFh9MOViJvhHTL9eVml8QdT2frR1du7QAUog==",
+      "path": "syncfusion.excelexport.net.core/20.4.0.49",
+      "hashPath": "syncfusion.excelexport.net.core.20.4.0.49.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.4.0.49": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JsufJL+jiq4z8tIUv9ad97Ej/5yiWykRw4HyCOtQqrJioZrR4SQoxYfcO7V7p5rt6w7qGssTivAS6M4Dp2AMDQ==",
+      "path": "syncfusion.licensing/20.4.0.49",
+      "hashPath": "syncfusion.licensing.20.4.0.49.nupkg.sha512"
+    },
+    "Syncfusion.PdfExport.Net.Core/20.4.0.49": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lLm+lWs1J8tj4mwIqwa9XeRMk34SARCcyVQgLh8z99mEcM9QxQfZLYIXikYzdOHcry11Gk/kCoekhZpFEQHKRg==",
+      "path": "syncfusion.pdfexport.net.core/20.4.0.49",
+      "hashPath": "syncfusion.pdfexport.net.core.20.4.0.49.nupkg.sha512"
+    },
     "System.IO.Pipelines/7.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
       "path": "system.io.pipelines/7.0.0",
       "hashPath": "system.io.pipelines.7.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
+      "path": "system.text.json/6.0.0",
+      "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     }
   }
 }

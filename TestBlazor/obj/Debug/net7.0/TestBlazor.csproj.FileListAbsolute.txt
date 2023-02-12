@@ -38,3 +38,8 @@ C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\n
 C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
 C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\net7.0\Microsoft.JSInterop.dll
 C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\obj\Debug\net7.0\TestBlazor.csproj.CopyComplete
+C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\net7.0\Syncfusion.Blazor.dll
+C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\net7.0\Syncfusion.ExcelExport.Net.dll
+C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\net7.0\Syncfusion.Licensing.dll
+C:\Users\Пользователь\source\repos\TestBlazor\TestBlazor\bin\Debug\net7.0\Syncfusion.PdfExport.Net.dll
