@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UWEN7Rm/kykZGq4oU8gjpxNgMPmJb/RaF/1IggM6s8o=",
+  "Hash": "XOgQtpKGh/oXS4eTmYlRt3zKGjPm6KUnqSOGtgPVVCU=",
   "Source": "TestBlazor",
   "BasePath": "_content/TestBlazor",
   "Mode": "Default",
@@ -1953,6 +1953,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Пользователь\\source\\repos\\TestBlazor\\TestBlazor\\wwwroot\\music\\Gimny_-_Gosudarstvennyjj_gimn_Rossijjskojj_ederacii_48240966.mp3",
+      "SourceId": "TestBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Пользователь\\source\\repos\\TestBlazor\\TestBlazor\\wwwroot\\",
+      "BasePath": "_content/TestBlazor",
+      "RelativePath": "music/Gimny_-_Gosudarstvennyjj_gimn_Rossijjskojj_ederacii_48240966.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\music\\Gimny_-_Gosudarstvennyjj_gimn_Rossijjskojj_ederacii_48240966.mp3"
     },
     {
       "Identity": "C:\\Users\\Пользователь\\source\\repos\\TestBlazor\\TestBlazor\\wwwroot\\music\\Irina_Allegrova_-_Vozvrashhajjtes_domojj_malchiki_75294734.mp3",

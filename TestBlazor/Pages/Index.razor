@@ -12,7 +12,6 @@ Welcome to your new app.
 <div class="row">
     <div class="col text-center">
         <h1>Добро пожаловать в игру</h1>
-
     </div> 
 </div>
 
@@ -50,15 +49,21 @@ Welcome to your new app.
                     @foreach (var item in games.OrderBy(x=> x.RealeaseDate))
                     {
                         <tr>
-                            <td>@item.Name</td>
+                            <td>@item.Name </td>
                             <td>@item.Genre</td>
                             <td>@item.RealeaseDate.ToString("dd.MM.yyyy")</td>
+                            <td>
+                                <button class="col-10">Редактировать</button>
+                            </td>
                         </tr>
                     }     
             }
         </tbody>
     </table>
 </div>
+<input />
+<input />
+<input />
 
 @code{
     private List<Game> games { get; set; }

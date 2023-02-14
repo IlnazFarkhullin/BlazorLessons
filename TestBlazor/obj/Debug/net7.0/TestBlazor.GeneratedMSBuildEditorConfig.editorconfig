@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9hc3ROb3RpZmljYXRpb25EZW1vLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Пользователь/source/repos/TestBlazor/TestBlazor/Shared/IndividualGame.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEluZGl2aWR1YWxHYW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Пользователь/source/repos/TestBlazor/TestBlazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

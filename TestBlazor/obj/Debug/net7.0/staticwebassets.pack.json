@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\Пользователь\\source\\repos\\TestBlazor\\TestBlazor\\wwwroot\\music\\Gimny_-_Gosudarstvennyjj_gimn_Rossijjskojj_ederacii_48240966.mp3",
+      "PackagePath": "staticwebassets\\music\\Gimny_-_Gosudarstvennyjj_gimn_Rossijjskojj_ederacii_48240966.mp3"
+    },
+    {
       "Id": "C:\\Users\\Пользователь\\source\\repos\\TestBlazor\\TestBlazor\\wwwroot\\music\\Irina_Allegrova_-_Vozvrashhajjtes_domojj_malchiki_75294734.mp3",
       "PackagePath": "staticwebassets\\music\\Irina_Allegrova_-_Vozvrashhajjtes_domojj_malchiki_75294734.mp3"
     },
